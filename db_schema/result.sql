@@ -4,7 +4,7 @@ CREATE TABLE `result` (
   `id` int(5) unsigned NOT NULL AUTO_INCREMENT,
   `prize_id` int(5) unsigned NOT NULL DEFAULT '0' COMMENT 'Prize id',
   `prize_name` varchar(255) NOT NULL DEFAULT '' COMMENT 'prize name',
-  `user_id` varchar(255) NOT NULL DEFAULT '' COMMENT 'user uuid',
+  `user_id` varchar(255) NOT NULL DEFAULT '' COMMENT 'user id',
   `left_num` int(5) NOT NULL DEFAULT '0' COMMENT 'number of prize left',
   `verifycode` int(4) unsigned NOT NULL DEFAULT '0' COMMENT '4 digit random number as verification code',
   `client_ip` varchar(50) NOT NULL DEFAULT '' COMMENT 'user\'s ip',
